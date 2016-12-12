@@ -20,11 +20,34 @@
 3、使用`git commit`将文件提交到仓库
 
     $ git commit -m "update"
-   
-*  要随时掌握工作区的状态，使用`git status`命令。
+    [master bb4915f] update
+    1 file changed, 12 insertions(+), 9 deletions(-)
 
-*  如果git status告诉你有文件被修改过，用`git diff`可以查看修改内容。
-*
+`-m "提交说明"` 后面为本次提交的说明
+   
+4、使用`git status`命令查看当前状态 
+       
+    $ git status
+    On branch master
+    Your branch is ahead of 'origin/master' by 1 commit.
+      (use "git push" to publish your local commits)
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   readme.md
+    
+    no changes added to commit (use "git add" and/or "git commit -a")
+                    
+5、使用`git diff`可以查看修改内容。
+
+     $ git diff readme.md
+    diff --git a/readme.md b/readme.md
+    index aaa0997..7dd5a98 100644
+    --- a/readme.md
+    +++ b/readme.md
+    @@ -20,9 +20,25 @@
+
 *  查看分支：git branch
 *
 *  创建分支：git branch <name>
