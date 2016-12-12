@@ -1,4 +1,4 @@
-##### 初始化本地git仓库(版本库repository)
+#### 初始化本地git仓库(版本库repository)
 1、创建空文件夹gitlearn,并进入到文件夹     
 
     $ mkdir gitlearn    
@@ -11,7 +11,7 @@
     Initialized empty Git repository in C:/Users/Administrator/Desktop/gitlearn/.git
    文件夹内会生成一个`.git`文件夹，表示仓库创建成功，这个文件夹不能随意修改，不然会破坏仓库
 
-##### 添加文件到仓库
+#### 添加文件到仓库
 1、创建文件`gitlearn.md`文件  
 2、使用`git add`命令将文件添加到版本库（仓库）  
     
