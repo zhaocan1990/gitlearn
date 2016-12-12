@@ -14,7 +14,7 @@
 ##### 添加文件到仓库
 1、创建文件`gitlearn.md`文件  
 2、使用`git add`命令将文件添加到版本库（仓库）  
-  `$ git add gitlearn`
+   `$ git add gitlearn`  
 3、使用`git commit`将文件提交到仓库
 
 *  要随时掌握工作区的状态，使用`git status`命令。
