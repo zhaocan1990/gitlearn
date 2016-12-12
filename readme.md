@@ -3,10 +3,11 @@
 
   `
   $ mkdir gitlearn     
+  `
+  `
   $ cd gitlearn
   `
-
-* 使用`git init`命令将当前文件夹初始化为git仓库  
+* 使用`git init`命令将当前文件夹初始化为git仓库 
 
 `
   $ git init  
