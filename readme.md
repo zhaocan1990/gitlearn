@@ -1,10 +1,10 @@
 ##### 初始化本地git仓库(版本库repository)
 * 创建空文件夹gitlearn,并进入到文件夹  
 
-`
-  $ mkdir gitlearn
+  `
+  $ mkdir gitlearn     
   $ cd gitlearn
-`
+  `
 
 * 使用`git init`命令将当前文件夹初始化为git仓库  
 
