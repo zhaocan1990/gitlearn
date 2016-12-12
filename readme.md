@@ -5,11 +5,10 @@
     $ cd gitlearn  
 
     
-2、使用`git init`命令将当前文件夹初始化为git仓库 
+2、使用`git init`命令将当前文件夹初始化为git仓库   
 
-  `$ git init`    
-  `Initialized empty Git repository in C:/Users/Administrator/Desktop/gitlearn/.git`  
-
+    $ git init
+    Initialized empty Git repository in C:/Users/Administrator/Desktop/gitlearn/.git
    文件夹内会生成一个`.git`文件夹，表示仓库创建成功，这个文件夹不能随意修改，不然会破坏仓库
 
 ##### 添加文件到仓库
